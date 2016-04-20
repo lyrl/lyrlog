@@ -69,6 +69,8 @@ theme: apollo
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
+  repo: git@github.com:lyrl/lyrlog.git
+  message: update
 archive_generator:
     per_page: 0
     yearly: false
